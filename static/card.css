@@ -21,7 +21,9 @@
 }
 /* 为边框添加样式 */
 #card {
-    background-color: rgb(178,178,178); /* 默认背景颜色 */
+    background-image: url('secret_garden.svg'); 
+    background-size: cover;
+    background-position: center;
     padding: 40px; /* 默认内边距 */
     margin:0;
     transition: background-color 0.3s ease, padding 0.3s ease; /* 背景颜色和内边距过渡效果 */
@@ -153,3 +155,4 @@
 
 
 }
+
